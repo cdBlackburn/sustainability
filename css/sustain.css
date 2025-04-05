@@ -1,0 +1,83 @@
+/*cas (alissa) blackburn*/
+
+/*global*/
+/*1*/
+*{box-sizing: content-box;}
+
+/*2*/
+body{font-size: 16px; line-height: 1.5; font-family: "Verdana"; margin: 0px;}
+
+/*3*/
+header, nav ul, #content-wrapper{width: 90%; max-width: 1200px; margin-left: auto; margin-right: auto;}
+
+/*4*/
+a{color: #008000;}
+
+/*logo*/
+/*5*/
+#logo{position: absolute; top: 0px; left: 0px;}
+
+/*6*/
+header{position: relative;}
+
+/*7*/
+header h1, nav ul{padding-left: 50px;}
+
+/*navbar*/
+/*8*/
+nav{background-color: #008000;}
+
+/*9*/
+ul{list-style-type: none;}
+
+/*10*/
+li{display: inline-block;}
+
+/*11*/
+nav a{display: inline-block; padding: 1rem; text-decoration: none; color: white; font-weight: bold;}
+
+/*12*/
+a:hover{background-color: black; color: #9ae39a;}
+
+/*image*/
+/*13*/
+main article img{border: double 3px #333; float: left; margin-top: 0.5rem; margin-right: 1rem; margin-bottom: 0.5rem;}
+
+/*columns*/
+/*14*/
+main section{display: flex;}
+
+/*15*/
+main section div{background-color: #e7ffe7; border: solid 1px #008000; border-radius: 10px; margin-right: 1rem; text-align: center; flex: 1;}
+
+/*16*/
+#last{margin-right: 0px;}
+
+/*17*/
+main section div h2{background-color: #008000; border-radius: 10px 10px 0px 0px; color: white; margin-top: 0px;}
+
+/*18*/
+main section div img{border: 3px double #333; display: block; margin-left: auto; margin-right: auto; max-width: 100%;}
+
+/*sidebar*/
+/*19*/
+aside section{background-color: white; margin-bottom: 1rem; border: 1px solid #008000;}
+
+/*20*/
+aside h3{background-color: #008000; color: white; padding: 0.5rem; margin: 0px;}
+
+/*21*/
+aside a{display: inline-block; padding: 0.5rem;}
+
+/*columns*/
+/*22*/
+#content-wrapper{display: flex;}
+
+/*23*/
+#content-wrapper aside{background-color: #ccc; margin-right: 1rem; padding: 0.5rem; position: relative; top: 20px; flex: 1; order: 1;}
+
+/*24*/
+main aside h2{margin-top: 0px; white-space: nowrap;}
+
+/*25*/
+#content-wrapper main{order: 4; flex: 4;}
